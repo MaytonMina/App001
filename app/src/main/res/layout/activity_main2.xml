@@ -7,16 +7,30 @@
     tools:context=".MainActivity2">
 
     <TextView
-        android:id="@+id/lblMostrar"
+        android:id="@+id/txtTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="11dp"
+        android:text="Primer  Ejemplo UI Android"
+        android:textAlignment="center"
+        android:textColor="#43A047"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblDatos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="7dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="2dp"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="145dp"
+        android:layout_marginBottom="-2dp" />
 </RelativeLayout>

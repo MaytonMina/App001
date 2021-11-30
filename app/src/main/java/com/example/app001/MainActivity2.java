@@ -11,11 +11,14 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-
-        TextView txtSaludo = (TextView) findViewById(R.id.lblMostrar);
+        TextView txtSaludo = (TextView) findViewById(R.id.lblDatos);
         //Recuperamos la información pasada en el intent
         Bundle bundle = this.getIntent().getExtras();
         //Construimos el mensaje a mostrar
-        txtSaludo.setText("Hola!, Bienvenido \n " + bundle.getString("NOMBRE"));
+        txtSaludo.setText("ESTOS SON LOS DATOS PASADOS \n " + bundle.getString("NOMBRE") +
+                "\n" +bundle.getString("TELEFONO") +
+                "\n" +bundle.getString("FECHA")+
+                "\n" +bundle.getString("SEXO"));
+
     }
 }
